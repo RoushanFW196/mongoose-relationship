@@ -16,7 +16,7 @@ const connect =()=>{
       bookname:{type:String,required:true},
       body:{type:String,required:true},
       price:{type:Number,required:true},
-      id:{type:Number,required:true},
+     
      
  
    section_id:{
@@ -63,7 +63,7 @@ const connect =()=>{
 
   // checkout schema
  const checkoutschema=new mongoose.Schema({
-     id:{type:Number,required:true},
+    
      type:{type:Boolean,required:true},
     
  })
